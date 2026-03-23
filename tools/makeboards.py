@@ -56,6 +56,7 @@ board_list = {
         'hse': [],
         'pnums': {
             'CH32X035G8U': {'name': 'CH32X035G8U EVT', 'maximum_size': 63488, 'maximum_data_size': 20480, 'mcu': 'QingKe-V4C', 'chip': 'CH32X035G8U'},
+            'CH32X035F8U_WEACT_STUDIO_COREBOARD': {'name': 'WeAct Studio CH32X035F8U CoreBoard', 'maximum_size': 63488, 'maximum_data_size': 20480, 'mcu': 'QingKe-V4C', 'chip': 'CH32X035F8U'},
         }
     },
     'CH32V10x': {
