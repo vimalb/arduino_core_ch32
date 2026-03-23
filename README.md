@@ -10,6 +10,8 @@
 
 This repo adds the support of CH32 MCU in Arduino IDE.<br>
 
+Note: This repo is a dev preview of the official [Arduino_Core_CH32](https://github.com/openwch/arduino_core_ch32) with some half-tested quality-of-life PRs merged in.<br>
+
 The file includes:
 * [Arduino_Core_CH32](https://github.com/openwch/arduino_core_ch32):Public library files.
 * [openocd](https://github.com/openwch/openocd_wch):can directly use WCH-LINKE to download and debug wch chips.
@@ -21,7 +23,7 @@ You can add this software package directly on the IDE through the [Arduino Board
 
 Add the following link in the "*Additional Boards Managers URLs*" field:
 
-https://github.com/openwch/board_manager_files/raw/main/package_ch32v_index.json
+https://github.com/vimalb/board_manager_files/raw/main/package_ch32v_index.json
 
 Then you can search for "**wch**" through the "**board manager**", find the installation package, and install it.
 
